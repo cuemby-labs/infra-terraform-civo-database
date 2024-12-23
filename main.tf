@@ -29,7 +29,7 @@ data "civo_network" "this" {
 
 # Firewall
 data "civo_firewall" "this" {
-    name = var.network_label
+    name = var.network_firewall
 }
 
 # To use this data source, make sure you have a database cluster created.
